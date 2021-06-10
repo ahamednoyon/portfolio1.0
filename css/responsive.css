@@ -1,0 +1,199 @@
+
+
+/* =======================
+Pablet Layout
+===========================*/
+
+@media only screen and (min-width:200px) and (max-width:991px){
+
+    .logo_area {
+        width: 45%;
+        float: none;
+        margin: 0 auto; 
+    }
+    
+    .single_box {
+        width: 27%;
+        height: auto;
+        
+    }
+
+    .singlePrice_table ul li {
+        font-size: 12px;
+    }
+
+
+    .conlft {
+        padding: 3% 1%;
+        
+    }
+
+    .footer_left {
+        width: 50%;
+    }
+
+    .footer_right {
+        width: 40%;
+}
+
+
+/* Mobile Layout */
+
+
+@media only screen and (min-width:200px) and (max-width:480px){
+    
+    section{
+        padding: 50px 0px;
+    }
+
+    .section_title h1 {
+        font-size: 30px;
+    }
+
+    
+    .banner_left {
+        width: 99%;
+        float: none;
+        display: grid;
+        margin: 0 auto;
+        place-items: center;
+        padding: 5% 0;
+    }
+
+    .banner_left h2 {
+        font-size: 20px;
+    }
+
+
+    .banner_right {
+        width: 65%;
+        float: none;
+        margin: 0 auto;
+    }
+
+
+    .left_contents {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+        float: none;
+    }
+
+
+    .right_contents {
+        width: 96%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .top_contents h3 {
+        line-height: 1.4rem;
+        color: rgb(68, 68, 68);
+        font-size: 17px;
+    }
+
+    .top_contents p {
+        margin-bottom: 25px;
+    }
+
+    .bottom_contents input[type="submit"]:last-child {
+        margin-left: 5px;
+    }
+
+    .bottom_contents input[type="submit"] {
+        margin-left: 51px;
+    }
+
+    .single_box {
+        width: 70%;
+        height: auto;
+        float: none;
+        margin: 15% 15%;
+        padding: 0;
+    }
+
+    .single_box .single_icon {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .title {
+        margin: 25px;
+    }
+
+
+    .singlePrice_table {
+        padding: 2% 4%;
+        margin: 10% 18%;
+        width: 55%;
+        float: none;
+    }
+
+
+    .singlePerson {
+        width: 70%;
+        float: none;
+        padding: 7% 0;
+        margin: 10% 15%;
+    }
+
+    .leftcontact_Me {
+        width: 84%;
+        float: none;
+        padding: 2% 0;
+        margin: 0% 8%;
+    }
+
+    .singleconbox {
+        padding: 6% 0;
+    }
+
+
+    .rightcontact_Me {
+        width: 90%;
+        float: none;
+        padding: 2% 0%;
+        margin: 0% 5%;
+    }
+
+
+    .rightcontact_Me input {
+        border: none;
+        width: 80%;
+        margin: 3% 5%;
+        padding: 4% 5%;
+    }
+
+    .rightcontact_Me textarea {
+        resize: none;
+        width: 80%;
+        border: none;
+        padding: 4% 5%;
+        margin: 1% 5%;
+    }
+
+    .rightcontact_Me input[type="submit"] {
+        border: 1px solid #2196F3;
+        padding: 5% 5%;
+        width: 90%;
+    }
+
+    .footer_left {
+        width: 96%;
+        float: none;
+        padding: 3% 2%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .footer_right {
+        width: 96%;
+        float: none;
+        text-align: center;
+        padding: 3% 2%;
+        margin: 0 auto;
+    }
+
+    .footer_right ul {
+        text-align: center;
+    }
+}
